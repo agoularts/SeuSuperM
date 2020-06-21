@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Seu Super Mercado",
+    "slug": "seusupermercado",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundImage": "./assets/backgroundImage.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.seusuper.seusupermercado",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.seusuper.seusupermercado",
+      "versionCode": 1
+    },
+    "description": "Versão mobile do projeto Seu Super (Mercado), desenvolvido para a disciplina de Laboratório e Software de Projetos, do curso Tecnólogo em Análise e Desenvolvimento de Sistemas, da UniRitter.",
+    "githubUrl": "https://github.com/agoularts/SeuSuperM"
+  }
+}
